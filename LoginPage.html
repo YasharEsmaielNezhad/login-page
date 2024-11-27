@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="header.css" />
     <link rel="stylesheet" href="body.css" />
+    <link rel="stylesheet" href="footer.css" />
   </head>
 
   <body class="body">
@@ -38,22 +39,26 @@
             <div class="form-floating">
               <input
                 type="email"
-                id="Username"
-                class="form-control bg-transparent p-0"
-                placeholder=""
+                class="form-control bg-transparent"
+                id="floatingInput"
+                placeholder="email@gmail.com"
               />
-              <label for="email" class="form-label form-control-sm"
-                >E-mail</label
+              <label
+                for="floatingInput"
+                class="form-label mt-3 ps-0 text-light text-opacity-50 "
+                >E-mail address</label
               >
             </div>
             <div class="form-floating">
               <input
                 type="password"
-                id="Username"
-                class="form-control bg-transparent"
-                placeholder=""
+                class="form-control bg-transparent mb-4"
+                id="passwordInput"
+                placeholder="type your password here"
               />
-              <label for="password" class="form-label form-control-sm"
+              <label
+                for="passwordInput"
+                class="form-control mt-2 ps-0 text-light text-opacity-50 bg-transparent"
                 >Password</label
               >
             </div>
@@ -65,12 +70,14 @@
                 class="form-check-input"
                 value="Remember me"
               />
-              <label for="Remember me" class="form-check-label p-0">
+              <label for="Remember me" class="form-check-label">
                 <p class="remember">Remember Me</p>
               </label>
-              <a class="link">Forgot Password?</a>
+              <a class="link link-light link-underline-opacity-0"
+                >Forgot Password?</a
+              >
             </div>
-            <input type="button" value="Login" class="btn mb-4" />
+            <input type="button" value="Login" class="btn mb-4"/>
           </div>
         </main>
         <footer>
@@ -78,7 +85,9 @@
             <div>
               <p class="account">
                 No Account?
-                <a class="register"> Register </a>
+                <a class="register link-light link-underline-opacity-0">
+                  Register
+                </a>
               </p>
             </div>
           </div>

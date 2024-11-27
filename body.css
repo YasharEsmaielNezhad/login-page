@@ -1,22 +1,8 @@
-/* .form-floating {
-  height: 50px;
-} */
-/* .form-floating {
-  height: 50px;
-  width: 200px;
-} */
 .form-control {
   border-left: 0;
   border-right: 0;
   border-top: 0;
   border-radius: 0;
-  border-bottom-width: 1px;
-
-  /* padding-bottom: -10px; */
-}
-.form-floating {
-  color: white;
-  width: 270px;
 }
 .form-check-input {
   margin-top: 35px;
@@ -32,9 +18,8 @@
   color: white;
   margin-left: 3px; /* حذف فاصله اضافی */
   font-size: 12px;
-  margin-bottom: 29px;
+  margin-bottom: 10px;
 }
-
 .link {
   position: absolute;
   right: 10px;
@@ -66,26 +51,4 @@
 .btn:active {
   border-color: black;
   opacity: 50%;
-}
-
-.account {
-  font-size: 12px;
-  color: white;
-}
-.register {
-  margin-left: 2px;
-  cursor: pointer;
-  color: white;
-}
-.register:hover {
-  opacity: 75%;
-}
-.register:active {
-  opacity: 50%;
-}
-.terms{
-  color: rgba(255, 255, 255, 0.432);
-  font-size: 12px;
-  margin-top: 25px;
-  margin-bottom: 5px;
 }
