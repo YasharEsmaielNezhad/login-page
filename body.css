@@ -1,0 +1,91 @@
+/* .form-floating {
+  height: 50px;
+} */
+/* .form-floating {
+  height: 50px;
+  width: 200px;
+} */
+.form-control {
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-radius: 0;
+  border-bottom-width: 1px;
+
+  /* padding-bottom: -10px; */
+}
+.form-floating {
+  color: white;
+  width: 270px;
+}
+.form-check-input {
+  margin-top: 35px;
+}
+.form-check-label {
+  display: flex;
+  width: 100%;
+  margin-right: 3px;
+  margin-top: 33px;
+}
+.remember,
+.forgot {
+  color: white;
+  margin-left: 3px; /* حذف فاصله اضافی */
+  font-size: 12px;
+  margin-bottom: 29px;
+}
+
+.link {
+  position: absolute;
+  right: 10px;
+  margin-top: 32px;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  color: white;
+}
+.link:hover {
+  opacity: 75%;
+}
+.link:active {
+  opacity: 50%;
+}
+.btn {
+  width: 100%;
+  color: white;
+  border-width: 1px;
+  border-radius: 0;
+  border-color: white;
+  border-style: solid;
+}
+.btn:hover {
+  border-color: white;
+  color: white;
+  opacity: 75%;
+}
+.btn:active {
+  border-color: black;
+  opacity: 50%;
+}
+
+.account {
+  font-size: 12px;
+  color: white;
+}
+.register {
+  margin-left: 2px;
+  cursor: pointer;
+  color: white;
+}
+.register:hover {
+  opacity: 75%;
+}
+.register:active {
+  opacity: 50%;
+}
+.terms{
+  color: rgba(255, 255, 255, 0.432);
+  font-size: 12px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}

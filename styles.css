@@ -1,0 +1,23 @@
+.body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  src: url(Fonts);
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.login-container {
+  /* background-color: white; */
+  backdrop-filter: blur(4px);
+  position: absolute;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  top: 20%;
+  bottom: auto;
+  width: 300px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, 0%);
+}

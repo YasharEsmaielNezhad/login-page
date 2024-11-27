@@ -1,0 +1,10 @@
+.form-header {
+  justify-content: start;
+  justify-items: start;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.login-text {
+  font-weight: 600;
+  color: white;
+}
